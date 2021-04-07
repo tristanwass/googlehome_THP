@@ -1,0 +1,121 @@
+/* LES STYLES */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* LA NAVBAR */
+  #nav_bar {
+    float: right;
+    font-size: 14px;
+    color:#222;
+  }
+  
+  #nav_bar li {
+    display: inline-block;
+    padding-top: 15px;
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+  
+  #nav_bar #sign_in {
+    background: #4887ef; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px; 
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .nav-links {
+    color: #404040;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  li.nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  #sign_in:hover { 
+    box-shadow: 1px 1px 5px #999;
+  }
+  
+  #sign_in {
+    color: #fff;
+  }
+  
+  /* GOOGLE SEARCH */
+  .google #google_logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+  }
+  
+  .form {
+    text-align: center;
+  }
+  
+  #form-search { 
+    width: 450px;
+    line-height: 32px;
+    padding: 20px 10px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+  }
+  
+  .form #form-search {
+    padding: 0 8px;
+  }
+
+  .buttons {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 300px;
+    border-radius: 5px;
+  }
+  
+  /* LE FOOTER */
+  footer  {
+    background: #d1d0d0;
+    border-top: solid 2px #e4e4e4;
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+  }
+  
+  footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+  }
+  
+  footer ul {
+    float: left;
+    padding: 1px;
+  }
+  
+  footer ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    float: right;
+  }
+  
